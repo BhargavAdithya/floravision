@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
@@ -30,9 +29,9 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link to="/" className="text-xl font-bold tracking-tight text-foreground transition hover:opacity-80">
+        <a href="/" className="text-xl font-bold tracking-tight text-foreground transition hover:opacity-80">
           FloraVision<span className="text-primary">.</span>
-        </Link>
+        </a>
 
         <ul className="hidden items-center gap-8 text-sm text-foreground/90 md:flex">
           {navLinks.map((l) => (

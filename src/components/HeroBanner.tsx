@@ -1,5 +1,5 @@
-import heroPlant from "@/assets/hero-plant.jpg";
-import aglaonema from "@/assets/aglaonema.png";
+import heroPlant from "../assets/hero-plant.jpg";
+import aglaonema from "../assets/aglaonema.png";
 import { Play } from "lucide-react";
 import { toast } from "sonner";
 

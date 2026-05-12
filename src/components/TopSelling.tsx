@@ -1,9 +1,9 @@
-import aglaonema from "@/assets/aglaonema.png";
-import plantain from "@/assets/plantain.png";
-import cactus from "@/assets/cactus.png";
-import swiss from "@/assets/swiss-cheese.png";
-import sansevieria from "@/assets/sansevieria.png";
-import agave from "@/assets/agave.png";
+import aglaonema from "../assets/aglaonema.png";
+import plantain from "../assets/plantain.png";
+import cactus from "../assets/cactus.png";
+import swiss from "../assets/swiss-cheese.png";
+import sansevieria from "../assets/sansevieria.png";
+import agave from "../assets/agave.png";
 import { ShoppingBag } from "lucide-react";
 import { toast } from "sonner";
 

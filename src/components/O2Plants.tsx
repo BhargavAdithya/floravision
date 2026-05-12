@@ -1,5 +1,5 @@
-import deskPlant from "@/assets/desk-plant.png";
-import deskPlant2 from "@/assets/desk-plant2.png";
+import deskPlant from "../assets/desk-plant.png";
+import deskPlant2 from "../assets/desk-plant2.png";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
